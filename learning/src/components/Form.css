@@ -1,6 +1,45 @@
    .formContainer{
+      width: 300px;
     display:flex;
     flex-direction: column;
     gap: 10px;
+    background-color: rgb(196, 240, 240);
+    padding: 10px;
     
+   }
+
+   .label{
+      color: black;
+      font-weight: 600;
+      text-align: left;
+   }
+   
+   .input{
+      width: 250px;
+      height: 25px;
+      padding: 4px;
+      border-radius: 5px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      align-self:  center;
+   }
+   .button{
+      width: 250px;
+      height: 40px;
+      padding: 4px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      color: red;
+      background-color: azure;
+      align-self: center;
+      margin-top: 15px;
+
+
+   }
+   .center{
+      display: flex;
+      align-items: center;
+      justify-content: center;
    }
